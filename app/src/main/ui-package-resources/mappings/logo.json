@@ -1,0 +1,6 @@
+{
+    "target": "Logo",
+    "package": "com.example.redlife.logo",
+    "generateImplementation": true,
+    "generatePreviews": true
+}

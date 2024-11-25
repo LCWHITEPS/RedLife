@@ -1,0 +1,78 @@
+{
+  "name": "body_bold",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "pFki0oy55pzVqcH8dGbO4m",
+    "node": "60:65",
+    "version": "2153688193224694452",
+    "component-id": "355017ef2ebef9e045675d6791cb1b5a03cfb3d3"
+  },
+  "default": "Body-bold=Default",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Body-Bold"
+      }
+    ],
+    "modes": {
+      "Body-bold=Default": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Body-Bold"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Body-Bold",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.6392156862745098
+            },
+            "text-content": "Body-Bold\n",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 20.0,
+            "line-height": 2.927000045776367,
+            "typeface": "Sumana"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Body-bold=Default",
+      "size": {
+        "width": 191.0,
+        "height": 32.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

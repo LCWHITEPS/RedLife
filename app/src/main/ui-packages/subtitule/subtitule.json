@@ -1,0 +1,76 @@
+{
+  "name": "subtitule",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "pFki0oy55pzVqcH8dGbO4m",
+    "node": "60:61",
+    "version": "2153688193224694452",
+    "component-id": "cf04863e744d938987caaee1099d761d6f6cb5dc"
+  },
+  "default": "subtitule=Default",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Subtitule"
+      }
+    ],
+    "modes": {
+      "subtitule=Default": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Subtitule"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Subtitule",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.6392156862745098
+            },
+            "text-content": "Subtitule",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 16.0,
+            "line-height": 1.305999994277954,
+            "typeface": "Suez One"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "subtitule=Default",
+      "size": {
+        "width": 73.0,
+        "height": 21.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

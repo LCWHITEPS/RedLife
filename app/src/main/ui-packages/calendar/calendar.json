@@ -1,0 +1,90 @@
+{
+  "name": "calendar",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "pFki0oy55pzVqcH8dGbO4m",
+    "node": "57:19",
+    "version": "2153688193224694452",
+    "component-id": "586556e56d8ed74ab003d79afe12d5d50077f8b1"
+  },
+  "default": "calendar",
+  "documentation": "Calendario para ultima donacion",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "1291765_agenda_calendar_meeting_reminder_icon 1"
+      }
+    ],
+    "modes": {
+      "calendar": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "1291765_agenda_calendar_meeting_reminder_icon 1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "1291765_agenda_calendar_meeting_reminder_icon 1",
+            "drop-shadow": {
+              "color": {
+                "alpha": 0.24705882352941178,
+                "hue": 0.0,
+                "saturation": 0.0,
+                "value": 0.0
+              },
+              "blur": 4.0,
+              "offset-x": 0.0,
+              "offset-y": 3.0,
+              "spread": 0.0,
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -4.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -1.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "image-content": "1291765_agenda_calendar_meeting_reminder_icon_1.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "calendar",
+      "size": {
+        "width": 54.0,
+        "height": 54.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

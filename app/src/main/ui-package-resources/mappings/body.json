@@ -1,0 +1,6 @@
+{
+    "target": "Body",
+    "package": "com.example.redlife.body",
+    "generateImplementation": true,
+    "generatePreviews": true
+}

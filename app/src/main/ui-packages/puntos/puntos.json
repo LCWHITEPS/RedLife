@@ -1,0 +1,67 @@
+{
+  "name": "puntos",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "pFki0oy55pzVqcH8dGbO4m",
+    "node": "57:22",
+    "version": "2153688193224694452",
+    "component-id": "2452e22707daf3620fa0e0f2c02faefa803f2ec8"
+  },
+  "default": "puntos",
+  "documentation": "Para menu",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "9044986_overflow_menu_vertical_icon 1"
+      }
+    ],
+    "modes": {
+      "puntos": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "9044986_overflow_menu_vertical_icon 1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "9044986_overflow_menu_vertical_icon 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "image-content": "9044986_overflow_menu_vertical_icon_1.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "puntos",
+      "size": {
+        "width": 30.0,
+        "height": 30.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

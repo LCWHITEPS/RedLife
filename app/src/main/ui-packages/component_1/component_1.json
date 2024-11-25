@@ -1,0 +1,415 @@
+{
+  "name": "component_1",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "pFki0oy55pzVqcH8dGbO4m",
+    "node": "60:6",
+    "version": "2153688193224694452",
+    "component-id": "777c47b3d5b8808297cbde291852c499a7392e4e"
+  },
+  "default": "Component 1",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Body"
+      },
+      {
+        "type": "text",
+        "id": "Subtitule"
+      },
+      {
+        "type": "text",
+        "id": "Body-Bold"
+      },
+      {
+        "type": "text",
+        "id": "Header"
+      },
+      {
+        "type": "group",
+        "id": "Frame 23"
+      },
+      {
+        "type": "group",
+        "id": "Frame 25"
+      },
+      {
+        "type": "group",
+        "id": "Frame 24"
+      },
+      {
+        "type": "group",
+        "id": "Frame 26"
+      },
+      {
+        "type": "text",
+        "id": "Autour One"
+      },
+      {
+        "type": "text",
+        "id": "Regular"
+      },
+      {
+        "type": "text",
+        "id": "65px // 4.063rem"
+      },
+      {
+        "type": "text",
+        "id": "Sumana"
+      },
+      {
+        "type": "text",
+        "id": "Regular1"
+      },
+      {
+        "type": "text",
+        "id": "20px // 1.25rem"
+      },
+      {
+        "type": "text",
+        "id": "Suez One"
+      },
+      {
+        "type": "text",
+        "id": "Regular2"
+      },
+      {
+        "type": "text",
+        "id": "12px // 0.8rem"
+      },
+      {
+        "type": "text",
+        "id": "Bold"
+      }
+    ],
+    "modes": {
+      "Component 1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Body",
+              "Subtitule",
+              "Body-Bold",
+              "Header",
+              "Frame 23",
+              "Frame 25",
+              "Frame 24",
+              "Frame 26"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Body",
+            "margin": {
+              "left": 3.0,
+              "top": 251.0,
+              "right": 229.0,
+              "bottom": 126.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.6392156862745098
+            },
+            "text-content": "Body\n",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 20.0,
+            "line-height": 2.927000045776367,
+            "typeface": "Sumana"
+          },
+          {
+            "id": "Subtitule",
+            "margin": {
+              "left": 3.0,
+              "top": 153.0,
+              "right": 200.0,
+              "bottom": 234.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.6392156862745098
+            },
+            "text-content": "Subtitule",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 16.0,
+            "line-height": 1.305999994277954,
+            "typeface": "Suez One"
+          },
+          {
+            "id": "Body-Bold",
+            "margin": {
+              "left": 4.0,
+              "top": 346.0,
+              "right": 81.0,
+              "bottom": 30.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.6392156862745098
+            },
+            "text-content": "Body-Bold\n",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 20.0,
+            "line-height": 2.927000045776367,
+            "typeface": "Sumana"
+          },
+          {
+            "id": "Header",
+            "margin": {
+              "bottom": 328.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.6392156862745098
+            },
+            "text-content": "Header",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 64.0,
+            "line-height": 1.25,
+            "typeface": "Autour One"
+          },
+          {
+            "id": "Frame 23",
+            "margin": {
+              "left": 6.0,
+              "top": 71.0,
+              "right": 152.0,
+              "bottom": 283.0
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Autour One",
+              "Regular",
+              "65px // 4.063rem"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Frame 25",
+            "margin": {
+              "left": 6.0,
+              "top": 294.0,
+              "right": 159.0,
+              "bottom": 60.0
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Sumana",
+              "Regular1",
+              "20px // 1.25rem"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Frame 24",
+            "margin": {
+              "left": 6.0,
+              "top": 175.0,
+              "right": 167.0,
+              "bottom": 179.0
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Suez One",
+              "Regular2",
+              "12px // 0.8rem"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Frame 26",
+            "margin": {
+              "left": 7.0,
+              "top": 390.0,
+              "right": 239.0
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Bold"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Autour One",
+            "text-content": "Autour One",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "line-height": 1.4809999465942383,
+            "typeface": "Space Mono"
+          },
+          {
+            "id": "Regular",
+            "text-content": "Regular",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "line-height": 1.4809999465942383,
+            "typeface": "Space Mono"
+          },
+          {
+            "id": "65px // 4.063rem",
+            "text-content": "65px // 4.063rem ",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "line-height": 1.4809999465942383,
+            "typeface": "Space Mono"
+          },
+          {
+            "id": "Sumana",
+            "text-content": "Sumana",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "line-height": 1.4809999465942383,
+            "typeface": "Space Mono"
+          },
+          {
+            "id": "Regular1",
+            "text-content": "Regular",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "line-height": 1.4809999465942383,
+            "typeface": "Space Mono"
+          },
+          {
+            "id": "20px // 1.25rem",
+            "text-content": "20px // 1.25rem ",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "line-height": 1.4809999465942383,
+            "typeface": "Space Mono"
+          },
+          {
+            "id": "Suez One",
+            "text-content": "Suez One",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "line-height": 1.4809999465942383,
+            "typeface": "Space Mono"
+          },
+          {
+            "id": "Regular2",
+            "text-content": "Regular",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "line-height": 1.4809999465942383,
+            "typeface": "Space Mono"
+          },
+          {
+            "id": "12px // 0.8rem",
+            "text-content": "12px // 0.8rem ",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "line-height": 1.4809999465942383,
+            "typeface": "Space Mono"
+          },
+          {
+            "id": "Bold",
+            "text-content": "Bold",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "line-height": 1.4809999465942383,
+            "typeface": "Space Mono"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Component 1",
+      "size": {
+        "width": 276.0,
+        "height": 408.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

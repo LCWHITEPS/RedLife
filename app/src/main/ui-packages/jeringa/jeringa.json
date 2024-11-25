@@ -1,0 +1,90 @@
+{
+  "name": "jeringa",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "pFki0oy55pzVqcH8dGbO4m",
+    "node": "57:21",
+    "version": "2153688193224694452",
+    "component-id": "552e26af5c8ebc5b4234215c53414265c52a2a49"
+  },
+  "default": "jeringa",
+  "documentation": "Parte del nombre",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "6051357_care_clinic_doctor_drug_health_icon (1) 1"
+      }
+    ],
+    "modes": {
+      "jeringa": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "6051357_care_clinic_doctor_drug_health_icon (1) 1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "6051357_care_clinic_doctor_drug_health_icon (1) 1",
+            "drop-shadow": {
+              "color": {
+                "alpha": 0.24705882352941178,
+                "hue": 0.0,
+                "saturation": 0.0,
+                "value": 0.0
+              },
+              "blur": 4.0,
+              "offset-x": 0.0,
+              "offset-y": 8.0,
+              "spread": 0.0,
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -4.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "image-content": "6051357_care_clinic_doctor_drug_health_icon_1_1.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "jeringa",
+      "size": {
+        "width": 54.0,
+        "height": 57.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

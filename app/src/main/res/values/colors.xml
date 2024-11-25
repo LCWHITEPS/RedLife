@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#ae0628</color>
+    <color name="salmon">#ec8c84</color>
+    <color name="reddark">#ae0628</color>
+    <color name="redd">#ec0432</color>
+    <color name="mint">#7ab1ae</color>
+    <color name="blueli">#acced4</color>
+    <color name="blanco" />
+    <color name="blancoo">E5E5E5FF</color>
+    <color name="elgris">454749</color>
+    <color name="elgri_s">#454749</color>
+    <color name="gris">#66454749</color>
+</resources>

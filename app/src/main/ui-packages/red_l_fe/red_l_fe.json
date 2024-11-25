@@ -1,0 +1,117 @@
+{
+  "name": "red_l_fe",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "pFki0oy55pzVqcH8dGbO4m",
+    "node": "57:14",
+    "version": "2153688193224694452",
+    "component-id": "0bf6685ede4a6e79af17cbea2c98f61145d59c84"
+  },
+  "default": "RedL FE",
+  "documentation": "Nombre de la app",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "RedL FE"
+      }
+    ],
+    "modes": {
+      "RedL FE": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "RedL FE"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "RedL FE",
+            "drop-shadow": {
+              "color": {
+                "alpha": 0.24705882352941178,
+                "hue": 0.0,
+                "saturation": 0.0,
+                "value": 0.0
+              },
+              "blur": 4.0,
+              "offset-x": 0.0,
+              "offset-y": 4.0,
+              "spread": 0.0,
+              "blend-mode": "normal"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "annotated-text-content": {
+              "text": "RedL FE",
+              "annotated-text-span-list": [
+                {
+                  "span-start": 0,
+                  "span-length": 3,
+                  "annotated-text-style": {
+                    "font-weight": 400.0,
+                    "typeface": "Autour One",
+                    "color": {
+                      "alpha": 1.0,
+                      "hue": 0.0,
+                      "saturation": 0.0,
+                      "value": 1.0
+                    }
+                  }
+                },
+                {
+                  "span-start": 3,
+                  "span-length": 4,
+                  "annotated-text-style": {
+                    "font-weight": 400.0,
+                    "letter-spacing": 6.5,
+                    "typeface": "Autour One",
+                    "color": {
+                      "alpha": 1.0,
+                      "hue": 347.85714285714283,
+                      "saturation": 0.9655172413793103,
+                      "value": 0.6823529411764706
+                    }
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 65.0,
+            "line-height": 1.1490000798152042,
+            "typeface": "Ubuntu Condensed"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "RedL FE",
+      "size": {
+        "width": 308.0,
+        "height": 81.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

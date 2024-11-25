@@ -1,0 +1,237 @@
+{
+  "name": "logo",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "pFki0oy55pzVqcH8dGbO4m",
+    "node": "45:12",
+    "version": "2153688193224694452",
+    "component-id": "d8b09eea595ddfaef0390d0e1181abca45a90910"
+  },
+  "default": "Logo",
+  "documentation": "Logo de la app\n",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "8673244_ic_fluent_drop_filled_icon (1) 1"
+      },
+      {
+        "type": "image",
+        "id": "8685725_ic_fluent_drop_filled_icon (1) 1"
+      },
+      {
+        "type": "image",
+        "id": "8685725_ic_fluent_drop_filled_icon 1"
+      },
+      {
+        "type": "image",
+        "id": "8960622_hospital_sign_cross_health_pharmacy_icon 1"
+      }
+    ],
+    "modes": {
+      "Logo": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "8673244_ic_fluent_drop_filled_icon (1) 1",
+              "8685725_ic_fluent_drop_filled_icon (1) 1",
+              "8685725_ic_fluent_drop_filled_icon 1",
+              "8960622_hospital_sign_cross_health_pharmacy_icon 1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "8673244_ic_fluent_drop_filled_icon (1) 1",
+            "drop-shadow": {
+              "color": {
+                "alpha": 0.24705882352941178,
+                "hue": 0.0,
+                "saturation": 0.0,
+                "value": 0.0
+              },
+              "blur": 4.0,
+              "offset-x": 0.0,
+              "offset-y": 10.0,
+              "spread": 0.0,
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -4.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "image-content": "8673244_ic_fluent_drop_filled_icon_1_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "8685725_ic_fluent_drop_filled_icon (1) 1",
+            "margin": {
+              "left": 8.75,
+              "top": 10.294830322265625,
+              "right": 8.75,
+              "bottom": 9.502944946289062
+            },
+            "drop-shadow": {
+              "color": {
+                "alpha": 0.24705882352941178,
+                "hue": 0.0,
+                "saturation": 0.0,
+                "value": 0.0
+              },
+              "blur": 4.0,
+              "offset-x": 0.0,
+              "offset-y": 4.0,
+              "spread": 0.0,
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -4.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "image-content": "8685725_ic_fluent_drop_filled_icon_1_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "8685725_ic_fluent_drop_filled_icon 1",
+            "margin": {
+              "left": 17.5,
+              "top": 23.75732421875,
+              "right": 17.5,
+              "bottom": 15.838226318359375
+            },
+            "drop-shadow": {
+              "color": {
+                "alpha": 0.24705882352941178,
+                "hue": 0.0,
+                "saturation": 0.0,
+                "value": 0.0
+              },
+              "blur": 4.0,
+              "offset-x": 0.0,
+              "offset-y": 6.0,
+              "spread": 0.0,
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -4.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "image-content": "8685725_ic_fluent_drop_filled_icon_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "8960622_hospital_sign_cross_health_pharmacy_icon 1",
+            "margin": {
+              "left": 43.75,
+              "top": 59.789276123046875,
+              "right": 43.75,
+              "bottom": 39.19960021972656
+            },
+            "drop-shadow": {
+              "color": {
+                "alpha": 0.24705882352941178,
+                "hue": 0.0,
+                "saturation": 0.0,
+                "value": 0.0
+              },
+              "blur": 4.0,
+              "offset-x": 0.0,
+              "offset-y": 10.0,
+              "spread": 0.0,
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -4.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "image-content": "8960622_hospital_sign_cross_health_pharmacy_icon_1.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Logo",
+      "size": {
+        "width": 105.0,
+        "height": 118.78665161132812
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
