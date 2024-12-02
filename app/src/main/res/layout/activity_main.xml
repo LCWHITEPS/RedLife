@@ -53,15 +53,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.602" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/mint"
-        android:fontFamily="@font/sumana"
-        android:text="Presione para continuar"
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="567dp" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
