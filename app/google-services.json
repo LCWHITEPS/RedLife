@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "454548152947",
+    "project_id": "appredlife",
+    "storage_bucket": "appredlife.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454548152947:android:bd36921890d9860614c006",
+        "android_client_info": {
+          "package_name": "com.example.redlife"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR7IE3xi4KZzjV5sFAKOi_A1wNCQUswu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
