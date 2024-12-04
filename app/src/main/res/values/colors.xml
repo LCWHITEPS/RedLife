@@ -2,16 +2,16 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="red">#ae0628</color>
-    <color name="salmon">#ec8c84</color>
-    <color name="reddark">#ae0628</color>
-    <color name="redd">#ec0432</color>
-    <color name="mint">#7ab1ae</color>
-    <color name="blueli">#acced4</color>
-    <color name="blanco" />
-    <color name="blancoo">E5E5E5FF</color>
-    <color name="elgris">454749</color>
+    <color name="red">#AE0628</color>
+    <color name="salmon">#EC8C84</color>
+    <color name="reddark">#AE0628</color>
+    <color name="redd">#EC0432</color>
+    <color name="menta">#74ABA8</color>
+    <color name="blueli">#ACCED4</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="blancoo">#E5E5E5FF</color>
+    <color name="elgris">#454749</color>
     <color name="elgri_s">#454749</color>
-    <color name="gris">#66454749</color>
+    <color name="gris">#454749</color>
     <color name="blancon">#FFFFFF</color>
 </resources>

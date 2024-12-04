@@ -7,6 +7,7 @@ android {
     namespace = "com.example.redlife"
     compileSdk = 34
 
+
     defaultConfig {
         applicationId = "com.example.redlife"
         minSdk = 24
@@ -53,4 +54,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation(libs.play.services.location)
+    implementation(libs.places)
+
 }

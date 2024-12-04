@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="200dp"
+    android:background="@color/red"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+
+    <EditText
+        android:id="@+id/et_edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blanco"
+        android:hint="Edad"
+        android:inputType="number"
+        android:textColor="@color/blanco"
+        android:textColorHint="@color/blanco" />
+
+    <EditText
+        android:id="@+id/et_tipoSangre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blanco"
+        android:hint="Tipo de sangre"
+        android:textColor="@color/blanco"
+        android:textColorHint="@color/blanco" />
+
+    <EditText
+        android:id="@+id/et_donacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blanco"
+        android:hint="Ultima donacion"
+        android:inputType="date"
+        android:textColor="@color/blanco"
+        android:textColorHint="@color/blanco" />
+</LinearLayout>

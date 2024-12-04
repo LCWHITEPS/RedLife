@@ -54,17 +54,21 @@
         android:id="@+id/textView3"
         android:layout_width="64dp"
         android:layout_height="33dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="221dp"
+        android:layout_marginBottom="154dp"
         android:elevation="8dp"
         android:fontFamily="@font/suez_one"
         android:text="User1"
         android:textColor="@color/material_dynamic_neutral30"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.219"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.167" />
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView3"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/rectangleView3"
+        app:layout_constraintTop_toTopOf="@+id/rectangleView3"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/btn_solicitar"
@@ -105,15 +109,17 @@
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
+        android:layout_width="54dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="293dp"
+        android:layout_marginBottom="154dp"
         android:elevation="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/rectangleView2"
-        app:layout_constraintVertical_bias="0.16"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView3"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView3"
+        app:layout_constraintStart_toStartOf="@+id/rectangleView3"
+        app:layout_constraintTop_toTopOf="@+id/rectangleView3"
         app:srcCompat="@mipmap/user_feeed_foreground" />
 
     <TextView
@@ -124,10 +130,9 @@
         android:fontFamily="@font/sumana"
         android:text="Necesito sangre sangre sangre"
         android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.24" />
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView3"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView3"
+        app:layout_constraintStart_toStartOf="@+id/rectangleView3"
+        app:layout_constraintTop_toTopOf="@+id/rectangleView3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

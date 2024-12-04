@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="200dp"
+    android:background="@color/red"
+    android:padding="30dp">
+
+    <EditText
+        android:id="@+id/et_tipoSangreS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipo de Sangre"
+        android:textColor="@color/blanco"
+        android:textColorHint="@color/blanco"
+        android:textColorLink="@color/elgri_s" />
+
+    <EditText
+        android:id="@+id/et_cantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad (ml)"
+        android:textColor="@color/blanco"
+        android:textColorHint="@color/blanco" />
+
+    <EditText
+        android:id="@+id/et_lugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lugar para donar"
+        android:textColor="@color/blanco"
+        android:textColorHint="@color/blanco" />
+</LinearLayout>
