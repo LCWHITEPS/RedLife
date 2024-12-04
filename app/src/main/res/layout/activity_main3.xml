@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.255" />
+        app:layout_constraintVertical_bias="0.266" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -70,10 +70,10 @@
         android:textColorLink="@color/elgri_s"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/rectangleView"
-        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintHorizontal_bias="0.595"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.806" />
+        app:layout_constraintVertical_bias="0.809" />
 
     <TextView
         android:id="@+id/textView4"
@@ -101,7 +101,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.58" />
+        app:layout_constraintVertical_bias="0.585" />
 
     <TextView
         android:id="@+id/textView8"
@@ -213,8 +213,11 @@
         android:layout_height="33dp"
         android:iconifiedByDefault="false"
         android:queryHint="Buscar banco de sangre"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="75dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.104" />
 
     <ImageButton
         android:id="@+id/btn_perfilUsuario"
@@ -236,10 +239,10 @@
         android:textColorLink="@color/elgri_s"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/rectangleView"
-        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintHorizontal_bias="0.593"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.654" />
+        app:layout_constraintVertical_bias="0.652" />
 
     <ImageView
         android:id="@+id/btn_heart"

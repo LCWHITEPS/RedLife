@@ -52,6 +52,11 @@ class MainActivity2 : AppCompatActivity(), OnMapReadyCallback {
             startActivity(intent)
         }
 
+        cambioHist.setOnClickListener{
+            val intent = Intent(this, MainActivity7::class.java)
+            startActivity(intent)
+        }
+
         // Mapa
         val fragmentoMapa = supportFragmentManager
             .findFragmentById(R.id.map) as SupportMapFragment
