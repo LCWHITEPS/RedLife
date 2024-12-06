@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources><string name="google_maps_key">AIzaSyCAUZuSlHgiC5ob27XIkzHbRJpHHU51RfY</string>
-    <string name="default_web_client_id">454548152947-3edi7bbhct63vvv8s3jrhjjb5fr64vls.apps.googleusercontent.com</string>
+<resources><string name="google_maps_key">apikeyAqui</string>
+    <string name="default_web_client_id">apikeyAqui</string>
 </resources>
