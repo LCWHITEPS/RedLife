@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/salmon"
-    tools:context=".MainActivity5">
+    tools:context=".Activity_registro_usuario">
 
     <Button
         android:id="@+id/btn_registro"
@@ -63,7 +63,7 @@
         app:srcCompat="@mipmap/logo_foreground" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/et_nombreCompleto"
         android:layout_width="333dp"
         android:layout_height="44dp"
         android:elevation="7dp"
@@ -79,7 +79,7 @@
         app:layout_constraintVertical_bias="0.282" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/et_correoRegistro"
         android:layout_width="333dp"
         android:layout_height="44dp"
         android:elevation="7dp"
@@ -95,7 +95,7 @@
         app:layout_constraintVertical_bias="0.371" />
 
     <EditText
-        android:id="@+id/editTextText4"
+        android:id="@+id/et_tipoSangreRegistro"
         android:layout_width="333dp"
         android:layout_height="44dp"
         android:elevation="7dp"
@@ -110,12 +110,12 @@
         app:layout_constraintVertical_bias="0.551" />
 
     <EditText
-        android:id="@+id/editTextText8"
+        android:id="@+id/et_donacionSoli"
         android:layout_width="333dp"
         android:layout_height="44dp"
         android:elevation="7dp"
         android:ems="10"
-        android:hint="Contraseña"
+        android:hint="Donaciones"
         android:inputType="text"
         android:textColor="@color/red"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -125,7 +125,23 @@
         app:layout_constraintVertical_bias="0.637" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/et_contraRegistro"
+        android:layout_width="333dp"
+        android:layout_height="44dp"
+        android:elevation="7dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="text"
+        android:textColor="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72" />
+
+    <EditText
+        android:id="@+id/et_edadRegistro"
         android:layout_width="333dp"
         android:layout_height="44dp"
         android:elevation="7dp"

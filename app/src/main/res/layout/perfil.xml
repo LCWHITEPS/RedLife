@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/blancon"
-    tools:context=".MainActivity6">
+    tools:context=".Activity_perfil_usuario">
 
     <ImageView
         android:id="@+id/imageView"
@@ -72,8 +72,8 @@
         app:layout_constraintTop_toTopOf="@+id/textView24"
         app:layout_constraintVertical_bias="0.34" />
 
-    <EditText
-        android:id="@+id/editTextText17"
+    <TextView
+        android:id="@+id/et_tipoSP"
         android:layout_width="333dp"
         android:layout_height="44dp"
         android:layout_marginStart="18dp"
@@ -90,8 +90,8 @@
         app:layout_constraintStart_toStartOf="@+id/textView26"
         app:layout_constraintTop_toTopOf="@+id/textView26" />
 
-    <EditText
-        android:id="@+id/editTextText5"
+    <TextView
+        android:id="@+id/et_edadP"
         android:layout_width="333dp"
         android:layout_height="44dp"
         android:layout_marginStart="17dp"
@@ -108,8 +108,8 @@
         app:layout_constraintStart_toStartOf="@+id/textView26"
         app:layout_constraintTop_toTopOf="@+id/textView26" />
 
-    <EditText
-        android:id="@+id/editTextText6"
+    <TextView
+        android:id="@+id/et_nombreP"
         android:layout_width="333dp"
         android:layout_height="44dp"
         android:layout_marginStart="19dp"
@@ -126,8 +126,8 @@
         app:layout_constraintStart_toStartOf="@+id/textView26"
         app:layout_constraintTop_toTopOf="@+id/textView26" />
 
-    <EditText
-        android:id="@+id/editTextText21"
+    <TextView
+        android:id="@+id/et_correoP"
         android:layout_width="333dp"
         android:layout_height="44dp"
         android:layout_marginStart="18dp"

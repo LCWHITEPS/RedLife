@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/calendario_background"
-    tools:context=".MainActivity2">
+    tools:context=".Activity_inicio_app">
 
     <fragment
         android:id="@+id/map"
@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.266" />
+        app:layout_constraintVertical_bias="0.209" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -118,7 +118,7 @@
         app:layout_constraintVertical_bias="0.786" />
 
     <TextView
-        android:id="@+id/textView20"
+        android:id="@+id/tv_donacion"
         android:layout_width="39dp"
         android:layout_height="33dp"
         android:elevation="8dp"
@@ -134,7 +134,7 @@
         app:layout_constraintVertical_bias="0.638" />
 
     <TextView
-        android:id="@+id/textView19"
+        android:id="@+id/tv_sangre"
         android:layout_width="40dp"
         android:layout_height="36dp"
         android:elevation="8dp"
@@ -206,18 +206,6 @@
         app:layout_constraintTop_toTopOf="@+id/textView4"
         app:layout_constraintVertical_bias="1.0" />
 
-
-    <androidx.appcompat.widget.SearchView
-        android:id="@+id/search_view"
-        android:layout_width="399dp"
-        android:layout_height="33dp"
-        android:iconifiedByDefault="false"
-        android:queryHint="Buscar banco de sangre"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.104" />
 
     <ImageButton
         android:id="@+id/btn_perfilUsuario"

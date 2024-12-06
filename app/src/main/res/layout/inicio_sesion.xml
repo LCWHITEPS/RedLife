@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/salmon"
-    tools:context=".MainActivity4">
+    tools:context=".Activity_autenticacion">
 
     <ImageView
         android:id="@+id/imageView6"
@@ -35,7 +35,7 @@
         app:layout_constraintVertical_bias="0.612" />
 
     <EditText
-        android:id="@+id/editTextText9"
+        android:id="@+id/et_passInicioSesion"
         android:layout_width="333dp"
         android:layout_height="44dp"
         android:background="@color/calendario_background"
@@ -51,7 +51,7 @@
         app:layout_constraintVertical_bias="0.518" />
 
     <EditText
-        android:id="@+id/editTextText7"
+        android:id="@+id/et_correoInicioSesion"
         android:layout_width="333dp"
         android:layout_height="44dp"
         android:background="@color/calendario_background"

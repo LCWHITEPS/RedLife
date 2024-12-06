@@ -9,7 +9,25 @@
 
 
     <EditText
-        android:id="@+id/et_edad"
+        android:id="@+id/et_nombreSoli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blanco"
+        android:hint="Nombre Completo"
+        android:textColor="@color/blanco"
+        android:textColorHint="@color/blanco" />
+
+    <EditText
+        android:id="@+id/et_correoSoli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blanco"
+        android:hint="Correo electronico"
+        android:textColor="@color/blanco"
+        android:textColorHint="@color/blanco" />
+
+    <EditText
+        android:id="@+id/et_edadSoli"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/blanco"
@@ -19,7 +37,7 @@
         android:textColorHint="@color/blanco" />
 
     <EditText
-        android:id="@+id/et_tipoSangre"
+        android:id="@+id/et_tipoSangreSoli"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/blanco"
@@ -28,11 +46,11 @@
         android:textColorHint="@color/blanco" />
 
     <EditText
-        android:id="@+id/et_donacion"
+        android:id="@+id/et_donacionSoli"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/blanco"
-        android:hint="Ultima donacion"
+        android:hint="Donaciones"
         android:inputType="date"
         android:textColor="@color/blanco"
         android:textColorHint="@color/blanco" />

@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
@@ -20,32 +22,30 @@
         android:theme="@style/Theme.RedLIFE"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity7"
+            android:name=".Activity_historial_donacion"
             android:exported="false" />
         <activity
-            android:name=".MainActivity6"
+            android:name=".Activity_perfil_usuario"
             android:exported="false"
             android:label="@string/title_activity_main6" />
         <activity
-            android:name=".MainActivity4"
+            android:name=".Activity_autenticacion"
+            android:exported="true"/>
+        <activity
+            android:name=".Activity_registro_usuario"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_publicacion"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_inicio_app"
             android:exported="false"
             android:theme="@style/Theme.RedLIFE" />
         <activity
-            android:name=".MainActivity5"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity3"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity2"
-            android:exported="false"
-            android:theme="@style/Theme.RedLIFE" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".Activity_pantalla_carga"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -56,6 +56,9 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.auth.api.signin.API_KEY"
+            android:value="@string/default_web_client_id" />
     </application>
 
 </manifest>

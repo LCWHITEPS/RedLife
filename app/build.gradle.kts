@@ -1,13 +1,12 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-    id("com.google.gms.google-services")
+    id("com.google.gms.google-services")  // Aquí aplica el plugin de Google Services
 }
 
 android {
     namespace = "com.example.redlife"
     compileSdk = 34
-
 
     defaultConfig {
         applicationId = "com.example.redlife"
@@ -28,20 +27,22 @@ android {
             )
         }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
     buildFeatures {
         viewBinding = true
     }
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -52,6 +53,9 @@ dependencies {
     implementation(libs.androidx.lifecycle.livedata.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.play.services.maps)
+    implementation(libs.firebase.database.ktx)
+    implementation(libs.firebase.auth.ktx)
+    implementation(libs.firebase.firestore.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -59,4 +63,9 @@ dependencies {
     implementation(libs.places)
     implementation(platform("com.google.firebase:firebase-bom:33.6.0"))
     implementation("com.google.firebase:firebase-analytics")
+    implementation("org.mindrot:jbcrypt:0.4")
+    implementation("com.google.firebase:firebase-auth:21.0.5")
+    implementation("com.google.android.gms:play-services-auth:20.1.0")
+    implementation("androidx.activity:activity-ktx:1.4.0")
+    implementation("com.google.firebase:firebase-database:20.0.3")
 }

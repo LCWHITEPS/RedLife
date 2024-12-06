@@ -7,28 +7,21 @@ import android.os.Looper
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 
-class MainActivity : AppCompatActivity() {
+class Activity_pantalla_carga : AppCompatActivity() {
 
     lateinit var cambio:Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.pantalla_carga)
 
         Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this,MainActivity5::class.java)
+            val intent = Intent(this,Activity_registro_usuario::class.java)
             startActivity(intent)
             finish()
         }, 3000)
-
-
-
     }
-
-
 }
